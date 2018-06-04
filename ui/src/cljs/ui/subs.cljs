@@ -11,3 +11,8 @@
  ::active-panel
  (fn [db _]
    (:active-panel db)))
+
+(rf/reg-sub
+ ::items
+ (fn [db]
+   (:items db)))

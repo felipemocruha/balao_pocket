@@ -17,7 +17,7 @@
         item-list (rf/subscribe [::subs/items])]
     [:div {:style home-style}
      [calendar/root]
-     [items/root item-list]]))
+     [items/root @item-list]]))
 
 (defn- panels [panel-name]
   (case panel-name
