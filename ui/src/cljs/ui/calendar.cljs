@@ -16,7 +16,8 @@
    :justify-content "space-around"
    :color "#000"
    :align-items "center"
-   :box-shadow "0px 1px"})
+   :box-shadow "0px 1px"
+   :background-color "#FFCC80"})
 
 (def head-style {})
 

@@ -5,6 +5,8 @@
    [ui.calendar :as calendar]
    [ui.item_list :as items]))
 
+;;base colors bg: #2f2f2f fg: ffa726
+
 (def home-style
   {:display "flex"
    :color "#fff"
